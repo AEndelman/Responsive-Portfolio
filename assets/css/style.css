@@ -1,0 +1,303 @@
+/* Styling for header */
+
+#header {
+    height: 70px;
+    background: white;
+    border-bottom: 2px solid #cccccc;
+  }
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 18pt;
+    font-weight: bold;
+
+}
+
+#myName {
+    background-color: #cccccc;
+    color: white;
+    float: left;
+    margin-left: 290px;
+    height: 70px;
+    width: 185px;
+}
+
+.hyperlinks{
+    margin-right: 190px;
+    float: right;
+}
+
+a{
+    font-size: 14px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-right: .5px solid #cccccc;
+    text-decoration: none;
+    padding: 20px;
+    color: grey;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+}
+
+li {
+    display: inline;
+}
+
+/* CSS for All */
+
+#sectionName{
+    float: left;
+    height: 80px;
+    width: 960px;
+    background-color: white;
+    border-bottom: 2px solid #cccccc;
+}
+
+#fullSection {
+    background-image: url(../images/light-grey-terrazzo.png);
+    overflow: auto;
+    clear: both;
+    width: 100%;
+    height: 100%;
+}
+
+#content {
+    color: grey; 
+    clear: left;
+    width: 960px;
+    height:100%;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    margin-bottom: 150px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top:100px;
+    background-color:white;
+}
+
+#endContent{
+    clear: left;
+    background-color: white;
+    max-width: 100%;
+    height: 10px;
+}
+/* Styling for index */
+
+#myPic{
+    float: left;
+    clear: left;
+    padding: 10px;
+}
+
+h2  {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    color: m;
+    float: left;
+}
+
+p {
+    text-align: left;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+/* CSS for contacts */
+
+h3{
+    color: darkgray;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    clear: left;
+}
+
+input{
+    width: 960px;
+}
+
+textarea {
+    width: 960px;
+    height: 250px;
+}
+
+/* CSS for portfolio */
+
+.portfolioGrid  {
+    clear: left;
+    display: grid;
+    width: 960px;
+    grid-template-columns: auto auto;
+    padding: 0px;
+}
+
+.grid-item {
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    /* background-image: url(/assets/images/peachy.png);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+  }
+
+.hero-text {
+    font-size: 8pt;
+    text-align: center;
+    position: relative;
+    top: -30%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: black;
+    background-attachment: fixed;
+    background-color: red;
+    width: 26%;
+}
+
+  #button1{
+    background-color: white;
+    font-size: 10pt;
+    color:grey;
+    padding: 16px 10px;
+  }
+
+
+  /* CSS for footer */
+  footer {
+    clear: left;
+    text-align: center;
+    color: white;
+    background-color: darkgray;
+    height: 30px;
+    display: block;
+    position:relative;
+    left:0px;
+    bottom:0px;
+    max-width:100%;
+}
+
+@media screen and (max-width: 640px) {
+    header{
+        position: static;
+    }
+    #myName {
+        width: 100%;
+        clear: both;
+        margin: auto;
+    }
+
+    body{
+        width: 100%;
+        margin: auto;
+    }    
+
+    #sectionName{
+        margin: auto; 
+        
+    }
+
+    .portfolioGrid{
+        width: 100%;
+        margin: auto;
+    }
+    .grid-item{
+        margin: auto;
+        width: 100%;
+        float: left;
+    }
+    .hyperlinks{
+        float: left;
+        clear: left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        position: static;
+    }
+    #myName {
+        width: 100%;
+        clear: both;
+        margin: auto;
+    }
+    
+    #sectionName{
+        margin: auto; 
+        
+    }
+
+    body{
+        width: 100%;
+        margin: auto;
+    }    
+
+    #fullsection{
+        width: 100%;
+        margin: auto;
+    }  
+    
+    #content{
+        width: 100%;
+        margin: auto;
+    }    
+
+    .portfolioGrid{
+        width: 100%;
+        margin: auto;
+    }
+    .grid-item{
+        margin: auto;
+        width: 100%;
+        float: left;
+    }
+    .hyperlinks{
+        float: left;
+        clear: left;
+    }
+
+  
+}
+
+@media screen and (max-width: 980px) {
+    header{
+        position: static;
+    }
+    #myName {
+        width: 100%;
+        clear: both;
+        margin: auto;
+    }
+
+    body{
+        width: 100%;
+        margin: auto;
+    }    
+    
+    #sectionName{
+        margin: auto; 
+        
+    }
+
+    .portfolioGrid{
+        width: 100%;
+        margin: auto;
+    }
+    .grid-item{
+        margin: auto;
+        width: 100%;
+        float: left;
+    }
+    .hyperlinks{
+        float: left;
+        clear: left;
+    }
+    #content{
+        margin: auto;
+        width: 100%;
+    }
+}
